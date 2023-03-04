@@ -1,0 +1,94 @@
+/* core  */
+#navbar {
+  padding: 0 50px;
+  width: 100vw;
+  background-color: #efeff2;
+  box-shadow: 0 3px 3px rgb(0 0 0 / 24%);
+  position: fixed;
+  z-index: 9999;
+}
+
+#nav-links,
+#nav-menus {
+  padding: 10px 0 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+#nav-search,
+#issn,
+#langs {
+  margin-left: 20px;
+}
+
+#serch-input {
+  padding: 5px 30px 5px 5px;
+  background: none;
+  width: 240px;
+  outline: none;
+  border: 0.918056px solid #a4a4b9;
+  border-radius: 2.75417px;
+}
+
+#search-button {
+  background: none;
+  border: none;
+  color: #a4a4b9;
+  position: relative;
+  right: 20px;
+}
+
+#issn a {
+  text-decoration: none;
+  color: #a4a4b9;
+}
+
+#langs button {
+  margin-right: 15px;
+  color: #a4a4b9;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+#active-lang {
+  color: #0072b3 !important;
+}
+
+#logIn {
+  cursor: pointer;
+  color: #a4a4b9;
+  font-weight: 700;
+}
+
+.login-button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #0072b3;
+  color: white !important;
+}
+
+.login-icon {
+  margin-right: 7px;
+}
+
+#nav-link {
+  color: #a4a4b9;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.active {
+  color: #0072b3 !important;
+}

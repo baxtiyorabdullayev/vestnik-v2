@@ -1,0 +1,26 @@
+.magazine-info-section,
+.editor-info-section {
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0px 4px 22px rgba(0, 114, 179, 0.2);
+  border-radius: 6px;
+}
+
+.magazine-info-section img,
+.editor-info-section img {
+  margin-right: 20px;
+  float: left;
+}
+
+.info-title {
+  display: flex;
+  align-items: center;
+  color: #0072b3;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.info-description {
+  color: #a4a4b9;
+  text-align: justify;
+}
